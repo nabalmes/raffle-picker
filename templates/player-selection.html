@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="/static/css/fireworks.css"> -->
+    <link rel="stylesheet" href="/static/css/snow.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        gap: 5rem;
+    }
+    #start {
+        font-size: 24px;
+        padding: 10px 20px;
+        border: transparent;
+        background: #c5c3c39c;
+        color: #b86a1f94;
+        font-weight: 700;
+        border-radius: 10px;
+        letter-spacing: 2px;
+        margin-top: 5rem;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+
+    .modal-container {
+        position: fixed;
+        height: 0;
+        width: 0;
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background: #000000a8;
+
+        z-index: 100;
+
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .modal-container.active {
+        height: 100vh;
+        width: 100%;
+        opacity: 1;
+        pointer-events: all;
+        transition: all 500ms ease-in-out;
+        backdrop-filter: blur(5px);
+    }
+
+    .modal-wrapper {
+        height: 0;
+        width: 0;
+        background: rgb(164 212 244 / 78%);
+        border-radius: 10px;
+        display: flex;
+        /* justify-content: center; */
+        position: relative;
+    }
+
+    .modal-wrapper.active {
+        height: 90%;
+        width: 90%;
+        transition: all 500ms ease-in-out;
+    }
+
+    .modal-wrapper canvas {
+        position: fixed;
+        top: 15%;
+        right: 25%;
+    }
+
+    .modal-header {
+        position: absolute;
+        top: 10%;
+        right: 0;
+        left: 0;
+        text-align: center;
+        font-size: 40px;
+        text-transform: capitalize;
+        color: #484743;
+        font-family: 'Bebas Neue';
+        letter-spacing: 10px;
+    }
+
+    .modal-winner {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        left: 0;
+        font-size: 100px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #2e2e85;
+        font-family: 'Bebas Neue';
+        letter-spacing: 10px;
+    }
+
+    .pyro {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+
+    .button-wrapper {
+        position: absolute;
+        bottom: 5%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .modal-close {
+        padding: 10px 20px;
+        font-size: 20px;
+        border: none;
+        border-radius: 10px;
+        color: #fff;
+        background: #426d6d;
+        cursor: pointer;
+    }
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+
+    /* Firefox */
+    input[type=number] {
+    -moz-appearance: textfield;
+    }
+
+    .pudding-logo {
+        position: static;
+    }
+
+</style>
+
+<body>
+    <div class="modal-container">
+        <div class="pyro">
+            <div class="before"></div>
+            <div class="after"></div>
+        </div>
+        <div class="modal-wrapper">
+            <canvas id="drawing_canvas"></canvas>
+            <div class="button-wrapper">
+                <button class="modal-close">Close</button>
+            </div>
+        </div>
+    </div>
+    <div class="pudding-logo bounce-top">
+        <img src="../static/logo/Altin.svg" alt="pudding-logo">
+        <img src="../static/logo/Integranet.svg" alt="pudding-logo">
+        <img src="../static/logo/integritynet-logo.png" alt="pudding-logo">
+        <img src="../static/logo/Luks Lofts Hotel.svg" alt="pudding-logo">
+        <img src="../static/logo/Share Cafe.svg" alt="pudding-logo">
+    </div>
+    <div class="main-section__container">
+        <img src="/static/image/mistletoe.png" alt="" class="mistletoe mistletoe-left">
+        <img src="/static/image/mistletoe.png" alt="" class="mistletoe mistletoe-right">
+        <div class="search-wrapper">
+            <input type="number" id="num" placeholder="Input number of player">
+            <button onclick="Roll()">Pick</button>
+        </div>
+        <div class="player-container">
+            <!--* append data here -->
+        </div>
+    </div>
+
+    <audio src="../static/audio/drumroll.mp3" class="party-drum__roll"></audio>
+    <audio src="../static/audio/congratulations.mp3" class="party-drum__winner"></audio>
+    <audio src="/static/audio/christmas-sound.mp3" class="christmas-sound" loop="false"></audio>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+</body>
+
+<script src="../static/js/jquery.js"></script>
+<script src="../static/js/main.js"></script>
+<script src="../static/js/conf.js"></script>
+</html>

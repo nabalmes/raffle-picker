@@ -1,0 +1,880 @@
+{
+  EmployeeNumber: "2076",
+  Name: "Aleta, Angelito Arellano",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2221",
+  Name: "Amores, Jamico Jay  Cariaga",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2243",
+  Name: "Andal, Deus Mico Antenor",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2240",
+  Name: "Andal, Joan Marie De Chavez",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2219",
+  Name: "Atienza, Raiza Salcedo",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2220",
+  Name: "Babasa, Efren Lacsamana",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2195",
+  Name: "Balmes, Neil Adrian",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2186",
+  Name: "Blanco, K.Clyn Delgado",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2189",
+  Name: "Caniedo, Veronica Oreste",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2254",
+  Name: "Cantos, John Carlo Espeleta",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2232",
+  Name: "Castillo, Jem Wynona Gutierrez",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2116",
+  Name: "Catapang, Angelica Mae Tañeo",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2206",
+  Name: "Cena, Jan Joel Rovera",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2194",
+  Name: "Cerezo John Menard Cerezo",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2235",
+  Name: "Cinco, Dennis Rivera",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2250",
+  Name: "De Castro, Marck Junhel Ebreo",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2179",
+  Name: "De Guzman, Mark Bryan Tumbagahon",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2256",
+  Name: "Dela Cruz, Angelie Bermundo",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2260",
+  Name: "Dimayuga, Paul Vincent A.",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2252",
+  Name: "Edulan, Marie Antoinnette Casañas",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2241",
+  Name: "Enriquez, Revelyn Manalo",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2242",
+  Name: "Escobio, D-Jay Como",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2211",
+  Name: "Falo, David Alexis Fronda",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2233",
+  Name: "Frago, Nicole Anne Andal",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2231",
+  Name: "Garcia, Zeus Dojello ",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2227",
+  Name: "Gupit, Alexander De Guzman",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2239",
+  Name: "Gutierrez, John Dariel Aguilon",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2192",
+  Name: "Hebras, Sherlene Manaoat",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2257",
+  Name: "Lat, John Lemuel G.",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2200",
+  Name: "Lemita, Veejay Adolf Manalo",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2210",
+  Name: "Loria, Jethro Sioco",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2259",
+  Name: "Maalihan, Jayson Panganiban",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2178",
+  Name: "Macaraig, Arvin Paulo Kasilag",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2245",
+  Name: "Magboo, Hsin Chin Labaso",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2177",
+  Name: "Magpantay, Joshua Reyes",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2216",
+  Name: "Malibiran, Cristie Macatangay",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2184",
+  Name: "Malibiran, Mary Jane Bajio",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2247",
+  Name: "Manzano, Mark Lester Rosa",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2263",
+  Name: "Mendoza, Dianne ",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2253",
+  Name: "Mendoza Jr., Alejandro Marfil",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2236",
+  Name: "Montesa III, Francisco Cuasay",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2213",
+  Name: "Ocampo, Marlon Pillejera",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2251",
+  Name: "Panganiban, Janne Nicole Umali",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2255",
+  Name: "Payoyo, Rico Gutierrez",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2262",
+  Name: "Peñaflorida, Lenny P.",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2261",
+  Name: "Pentinio, Vanessa A.",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2176",
+  Name: "Reyes, Glecie Jane Mores",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2143",
+  Name: "Roco, Benjamin Pedida",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2258",
+  Name: "Salazar, Alvin Habla",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2144",
+  Name: "Taguba, Bryan Cammayo",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "2264",
+  Name: "Ortega, Glen Ger Dawn T.",
+  "CompanyID": uint(2),
+},
+{
+  EmployeeNumber: "009845",
+  Name: "Abando, Kimberly Ann Somoria",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009671",
+  Name: "Agravio, Marjorie Baron",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009022",
+  Name: "Alvarez, Cathlene Kate Llaga",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009787",
+  Name: "Amaro, Richwell Dimaala",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009849",
+  Name: "Anoñuevo, Gil Faraon",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009606",
+  Name: "Antonio, Michelle Puno",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009865",
+  Name: "Asciñas, Dannybel Beron",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009554",
+  Name: "Atienza, Maria Jesusa Sevilla",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009826",
+  Name: "Babao, Sarah Mae Maglantay",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009863",
+  Name: "Balmes, Krishian Mae Pentinio",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009890",
+  Name: "Biscocho, Madonna",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009096",
+  Name: "Bisula, Allan Anis",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009140",
+  Name: "Boongaling, Marilou Alcayde",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009231",
+  Name: "Borlaza, Anna Eaza Grace Ignacio",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009057",
+  Name: "Briones, Jairus John Malibiran",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009065",
+  Name: "Briones, Katherine  Saice",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009866",
+  Name: "Bulawan, Raquel Generoso",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009103",
+  Name: "Calubaquib, Carlo  Angelo Maranan ",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009674",
+  Name: "Cantos, Neriebel Marie Buquis",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009478",
+  Name: "Claus, Adela Paras",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009675",
+  Name: "Claus, Arlen Paras",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009852",
+  Name: "De Guzman, Marjorie Ann More",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009753",
+  Name: "De Mesa, Joseph Allen Garcia",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009829",
+  Name: "Delos Reyes, Edannie Castor",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009646",
+  Name: "Dimailig, Venice Angelica Mendoza",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009099",
+  Name: "Dipasupil, Melanie Aronico",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009868",
+  Name: "Ebora, Daisyre Saceda",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009558",
+  Name: "Evangelista, Doralie Magderila",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009756",
+  Name: "Gondra, Daniel Fronda",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009603",
+  Name: "Gunio, Glorilyn Nuñez",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009236",
+  Name: "Hornilla, Baby Lene Jolo",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009832",
+  Name: "Lagran, Mark Anthony Castillo",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009363",
+  Name: "Landicho, Alvin Cris Alo",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009680",
+  Name: "Lazarte, Angelli Aldovino",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009681",
+  Name: "Lim, Lara Elisse Austria",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009855",
+  Name: "Macasinag, Eric Lladones",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009856",
+  Name: "Manalo, Mae Ericka Ivie Cantos",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009204",
+  Name: "Mandigma, Madonna Orale",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009886",
+  Name: "Mandigma, Michael Orale",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009684",
+  Name: "Mojica, Melissa Sureta",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009834",
+  Name: "Mondano, Arlene De Castro",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009686",
+  Name: "Morillo, Susan Piol",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009604",
+  Name: "Napay, Marry Joy Guiriba",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009858",
+  Name: "Norva, Katrina Esico",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009056",
+  Name: "Oca, Joyce Anne Maginie  Rivera",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009762",
+  Name: "Pal, Puja Kur",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009309",
+  Name: "Perez, Anglebert Espina",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009349",
+  Name: "Perez, Roylan Magtibay",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009873",
+  Name: "Poliquit, Calvin Relamadas ",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009869",
+  Name: "Quiñones, Anna Marie Magboo",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009837",
+  Name: "Rodolfo, Waynne Lungcay",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009882",
+  Name: "Rosales, Jennifer Marielle Gutierrez",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009888",
+  Name: "Rosales, Nina Antonete Saldivia",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009312",
+  Name: "Soliman, Percival Dizon",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009884",
+  Name: "Tapangco, Joana Lou Magpantay",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009534",
+  Name: "Tayag, Maricar Lapez",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009872",
+  Name: "Tiquis, Maria Nicole Corrales",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009608",
+  Name: "Valebia, Lendy Lazarte",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009901",
+  Name: "CATIENZA, MAILA",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009893",
+  Name: "ORTIZ, ELVIN ",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009895",
+  Name: "MEJIA, JUVY ANNE",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009903",
+  Name: "BALOTCOPO, KERVIN ",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009896",
+  Name: "MATIBAG, LORD IAN",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009899",
+  Name: "EJE, DAVID DANIEL ROGIE ",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009894",
+  Name: "MENDOZA, DANA MAY ",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009905",
+  Name: "MAGBUHAT, KRISTIAN ALLEN ",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009900",
+  Name: "DE GUZMAN, DENISE ",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009904",
+  Name: "ALCANTARA, MARIANNE ",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009902",
+  Name: "CANLUBO, JOHN JALLO ",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009892",
+  Name: "VALENCIA, MELODY",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009898",
+  Name: "MACATANGAY, MARIE JOY ",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009897",
+  Name: "MARAVE JR., DANILO",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "009891",
+  Name: "VILLENA, GRACE ",
+  "CompanyID": uint(6),
+},
+{
+  EmployeeNumber: "21011",
+  Name: "Almario, Clarice Alea",
+  "CompanyID": uint(5),
+},
+{
+  EmployeeNumber: "19121",
+  Name: "Ante, Eric Macatangay",
+  "CompanyID": uint(5),
+},
+{
+  EmployeeNumber: "009651",
+  Name: "Arcega, Percelet Candava",
+  "CompanyID": uint(5),
+},
+{
+  EmployeeNumber: "22021",
+  Name: "Bernabe, Honeylet Farah Castillo",
+  "CompanyID": uint(5),
+},
+{
+  EmployeeNumber: "22030",
+  Name: "Castillo, Von Joshua",
+  "CompanyID": uint(5),
+},
+{
+  EmployeeNumber: "2238",
+  Name: "Catangay, Chyra Ann Anttonete Calingasan",
+  "CompanyID": uint(5),
+},
+{
+  EmployeeNumber: "22001",
+  Name: "Claus, Angela Jhoy Dapito",
+  "CompanyID": uint(5),
+},
+{
+  EmployeeNumber: "20003",
+  Name: "Dalisay, Rolando Astoviza",
+  "CompanyID": uint(5),
+},
+{
+  EmployeeNumber: "22009",
+  Name: "De Torres, Leopoldo Luis Gutierrez",
+  "CompanyID": uint(5),
+},
+{
+  EmployeeNumber: "19136",
+  Name: "Garcia, Kim Alven Velasquez",
+  "CompanyID": uint(5),
+},
+{
+  EmployeeNumber: "22027",
+  Name: "Hermidilla, Nixon Magsino",
+  "CompanyID": uint(5),
+},
+{
+  EmployeeNumber: "009702",
+  Name: "Janer, Myrla Zulueta",
+  "CompanyID": uint(5),
+},
+{
+  EmployeeNumber: "22013",
+  Name: "Lucero, Danica Marie Sanchez",
+  "CompanyID": uint(5),
+},
+{
+  EmployeeNumber: "16087",
+  Name: "Maderazo, Aaron Paul Acuyong",
+  "CompanyID": uint(5),
+},
+{
+  EmployeeNumber: "21007",
+  Name: "Moldon, Catherine Macalatan",
+  "CompanyID": uint(5),
+},
+{
+  EmployeeNumber: "22017",
+  Name: "Padre, Reuel Papa",
+  "CompanyID": uint(5),
+},
+{
+  EmployeeNumber: "19059",
+  Name: "Perez, Pocholo Clarin",
+  "CompanyID": uint(5),
+},
+{
+  EmployeeNumber: "15002",
+  Name: "Reyes, Alijah Alma Uy",
+  "CompanyID": uint(5),
+},
+{
+  EmployeeNumber: "19002",
+  Name: "Samaniego, Evelyn Dee",
+  "CompanyID": uint(5),
+},
+{
+  EmployeeNumber: "21001",
+  Name: "Serran, Richard Capili",
+  "CompanyID": uint(5),
+},
+{
+  EmployeeNumber: "22016",
+  Name: "Tolentino, Jerry Santos",
+  "CompanyID": uint(5),
+},
+{
+  EmployeeNumber: "19003",
+  Name: "Zafe, Rommel Agan",
+  "CompanyID": uint(5),
+},
+{
+  EmployeeNumber: "16095",
+  Name: "Aday, Christian Delos Reyes",
+  "CompanyID": uint(4),
+},
+{
+  EmployeeNumber: "19118",
+  Name: "Amboy, Eric William Badorea",
+  "CompanyID": uint(4),
+},
+{
+  EmployeeNumber: "22026",
+  Name: "Banaag, Jan Bernice Mendoza",
+  "CompanyID": uint(4),
+},
+{
+  EmployeeNumber: "17005",
+  Name: "Cantos, Aprail Gutierrez",
+  "CompanyID": uint(4),
+},
+{
+  EmployeeNumber: "22029",
+  Name: "Cristobal, Ayla Faye Briones",
+  "CompanyID": uint(4),
+},
+{
+  EmployeeNumber: "21012",
+  Name: "Delas Alas, Jay Mark  Sallido",
+  "CompanyID": uint(4),
+},
+{
+  EmployeeNumber: "22003",
+  Name: "Delizo, Danica Pearl Mangubat",
+  "CompanyID": uint(4),
+},
+{
+  EmployeeNumber: "009193",
+  Name: "Lu, Szeerlon Sayat",
+  "CompanyID": uint(4),
+},
+{
+  EmployeeNumber: "22018",
+  Name: "Macalalad, Laiza Lara",
+  "CompanyID": uint(4),
+},
+{
+  EmployeeNumber: "22008",
+  Name: "Marco, Kimberly Mae Ilagan",
+  "CompanyID": uint(4),
+},
+{
+  EmployeeNumber: "22023",
+  Name: "Mariano, Alberto Babasa",
+  "CompanyID": uint(4),
+},
+{
+  EmployeeNumber: "009581",
+  Name: "Mendoza, Berwyn Matibag",
+  "CompanyID": uint(4),
+},
+{
+  EmployeeNumber: "009441",
+  Name: "Pasay, Marino Vargas",
+  "CompanyID": uint(4),
+},
+{
+  EmployeeNumber: "22031",
+  Name: "Pila, Jiminette Ramos",
+  "CompanyID": uint(4),
+},
+{
+  EmployeeNumber: "19113",
+  Name: "Serrano, Arcenia Dipasupil",
+  "CompanyID": uint(4),
+},
+{
+  EmployeeNumber: "22012",
+  Name: "Silvestre, Rosette Medina",
+  "CompanyID": uint(4),
+},
+{
+  EmployeeNumber: "17014",
+  Name: "Siman, Nestor Alimpulos",
+  "CompanyID": uint(4),
+},
+{
+  EmployeeNumber: "009816",
+  Name: "Buan, John Louies Ilagan",
+  "CompanyID": uint(3),
+},
+{
+  EmployeeNumber: "009539",
+  Name: "Castillo, Gener Plata",
+  "CompanyID": uint(3),
+},
+{
+  EmployeeNumber: "009462",
+  Name: "Fabregas, Joebert Rios",
+  "CompanyID": uint(3),
+},
+{
+  EmployeeNumber: "009266",
+  Name: "Guiamoy, Juvienal Ebreo",
+  "CompanyID": uint(3),
+},
+{
+  EmployeeNumber: "009744",
+  Name: "Macatangay, Leodegario Dimaano",
+  "CompanyID": uint(3),
+},
+{
+  EmployeeNumber: "009006",
+  Name: "Macatangay, Richard Roy Ramirez",
+  "CompanyID": uint(3),
+},
+{
+  EmployeeNumber: "009501",
+  Name: "Manucal, Anthony De Castro",
+  "CompanyID": uint(3),
+},
+{
+  EmployeeNumber: "009404",
+  Name: "Ongkiko, Karl Michael Bartolome",
+  "CompanyID": uint(3),
+},
+{
+  EmployeeNumber: "009288",
+  Name: "Roxas, Claro Añonuevo",
+  "CompanyID": uint(3),
+},
+{
+  EmployeeNumber: "009811",
+  Name: "Santos, Nestor Bungcayao",
+  "CompanyID": uint(3),
+},
+{
+  EmployeeNumber: "009472",
+  Name: "Villadarez, Joel Martos",
+  "CompanyID": uint(3),
+},
+{
+  EmployeeNumber: "000014",
+  Name: "Almodal, Jose Limuel Rejuso",
+  "CompanyID": uint(1),
+},
+{
+  EmployeeNumber: "000011",
+  Name: "Gayo, Dennis Agir",
+  "CompanyID": uint(1),
+},
